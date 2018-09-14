@@ -1,0 +1,13 @@
+1. enzime : airbnb.io/enzime
+
+    - yarn add enzyme enzime-adapter-react-16
+     : '16' must be a same version of 'react'
+    
+    - Under src directory
+     : make a file named ''setupTests.js'
+     : The file name must be same as 'setupTests.js'
+
+    - airbnb.io/enzime
+     : click Shallow
+     : get 'find'
+     : get Component Construction
