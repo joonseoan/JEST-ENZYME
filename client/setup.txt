@@ -1,6 +1,6 @@
 1. enzime : airbnb.io/enzime
 
-    - yarn add enzyme enzime-adapter-react-16
+    - yarn add enzyme enzyme-adapter-react-16
      : '16' must be a same version of 'react'
     
     - Under src directory
@@ -11,3 +11,21 @@
      : click Shallow
      : get 'find'
      : get Component Construction
+
+2. enzyme test path setup
+
+    - at the same location of package.json
+        1) make a file '.env'
+        2) write NODE_PATH=src/
+        3) yarn test again
+
+3. For HTTP test, install JSONPlaceholder API
+
+    - https://jsonplaceholder.typicode.com/
+    - go to resources
+    - click on /comments 500ml
+
+4. install moxios, axios, and redux-promise
+    - redux promise connects axios and moxios with redux store.
+    
+

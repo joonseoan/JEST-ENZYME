@@ -1,6 +1,6 @@
 import React from 'react';
-import ComponentBox from './ComponentBox';
-import ComponentList from './ComponentList';
+import ComponentBox from 'components/ComponentBox';
+import ComponentList from 'components/ComponentList';
 
 
 export default () => {

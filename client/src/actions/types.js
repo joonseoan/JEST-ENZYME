@@ -1,0 +1,2 @@
+export const SAVE_COMPONENT = 'SAVE_COMPONENT';
+export const FETCH_DATA = 'FETCH_DATA';
